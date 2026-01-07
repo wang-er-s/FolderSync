@@ -39,7 +39,7 @@ uv run pytest
 ### 类型检查
 
 ```bash
-uv run mypy src/folder_sync
+uv run mypy src
 ```
 
 ### 运行应用
@@ -53,10 +53,9 @@ uv run folder-sync
 ```
 folder-sync/
 ├── src/
-│   └── folder_sync/
-│       ├── __init__.py          # 包初始化
-│       ├── __main__.py          # 应用入口
-│       └── logging_config.py    # 日志配置
+│   ├── __init__.py          # 包初始化
+│   ├── __main__.py          # 应用入口
+│   └── logging_config.py    # 日志配置
 ├── tests/
 │   ├── __init__.py
 │   ├── conftest.py              # pytest 配置

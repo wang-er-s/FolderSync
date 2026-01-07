@@ -6,7 +6,7 @@
 __version__ = "0.1.0"
 __author__ = "Folder Sync Team"
 
-from folder_sync.logging_config import setup_logging
+from .logging_config import setup_logging
 
 # 初始化日志配置
 setup_logging()

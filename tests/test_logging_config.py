@@ -3,7 +3,7 @@
 import logging
 from pathlib import Path
 
-from folder_sync.logging_config import setup_logging, get_logger
+from src.logging_config import get_logger, setup_logging
 
 
 def test_setup_logging_default() -> None:
